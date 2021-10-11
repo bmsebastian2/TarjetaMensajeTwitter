@@ -1,8 +1,5 @@
 import React from 'react'
-
 import Button from '@material-ui/core/Button';
-
-
 const Newquote = ({color, pasarId}) => {
     return (
         <Button id='new-quote' 

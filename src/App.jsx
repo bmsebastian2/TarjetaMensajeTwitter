@@ -4,7 +4,7 @@ import ButtonTweter from "./componets/ButtonTweter";
 import FormatQuoteIcon from "@material-ui/icons/FormatQuote";
 import listTool from './jsonObject.json';
 import { useState } from "react";
-import { Opacity } from "@material-ui/icons";
+
 
 
 
@@ -12,12 +12,6 @@ function App() {
 
   const [idstate, setIdstate] = useState(1);
   const [op, setOp] = useState('100%')
-  
-  // const funcionOp = () => {
-    
-  //   pasarId()
-  // }
-  
   
   const pasarId = ()=>{      
           setTimeout(
@@ -31,10 +25,8 @@ function App() {
             ( (idstate<6)? setIdstate( idstate + 1):setIdstate(1) );
             setOp('100%'); 
           }, 2000);
-         
-          
+                   
     }
-
  
 
   return (
@@ -72,7 +64,6 @@ function App() {
         </div>
 
 
-
         <div className="footer">
                 <div className="footerIcon">
                     <div>                      
@@ -84,9 +75,6 @@ function App() {
                      <Newquote color={listTool[idstate-1].color} pasarId={ pasarId }/>
                 </div>
         </div>
-      
-      
-
       </div>
 
 
