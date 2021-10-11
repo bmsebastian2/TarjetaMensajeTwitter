@@ -64,8 +64,8 @@
 
 @media (max-width: 991.98px) { 
     #quote-box{
-      height: 100vh;
-      width: 100%;
+      height: 90vh;
+      width: 90%;
     }
     #mensaje{
       font-size: 5px;
