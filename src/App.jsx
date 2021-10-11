@@ -40,7 +40,7 @@ function App() {
             id="text"
             className="border"
             style={{
-              fontSize: "2.2rem",
+              fontSize: "1.8rem",
               color: `${listTool[idstate-1].color}`,
               marginLeft: "2rem",
               marginRight: "2rem",
