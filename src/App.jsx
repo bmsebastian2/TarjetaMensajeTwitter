@@ -40,7 +40,7 @@ function App() {
             id="text"
             className="border"
             style={{
-              fontSize: "2.7rem",
+              fontSize: "2.2rem",
               color: `${listTool[idstate-1].color}`,
               marginLeft: "2rem",
               marginRight: "2rem",
@@ -49,8 +49,8 @@ function App() {
               
             }}
           >
-            <FormatQuoteIcon style={{ fontSize: 50 }} id='mensaje' />
-            { listTool[idstate-1].mensaje}
+            <FormatQuoteIcon style={{ fontSize: '50' }} id='mensaje' />
+            <span >{ listTool[idstate-1].mensaje}</span>
           </div>
 
           <div id="author" className="border" 
