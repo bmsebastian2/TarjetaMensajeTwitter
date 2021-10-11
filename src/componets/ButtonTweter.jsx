@@ -59,11 +59,7 @@ const ButtonTweter = ({color,mensaje}) => {
               </a>
               {/* </Link> */}
          </div>
-           
-          
-           
-            
-        
+  
     )
 }
 
